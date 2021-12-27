@@ -7,6 +7,7 @@ export default {
         await this.login();
         this.$store.dispatch("login");
     },
+   
     methods: {
         login() {
             return new Promise((resolve) => {
